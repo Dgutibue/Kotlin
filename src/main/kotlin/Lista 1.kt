@@ -3,4 +3,7 @@ fun main(args: Array<String>) {
     for (i in nombres){
         println(i)
     }
+    for((indice, valor) in nombres.withIndex()){
+        println("$indice , $valor")
+    }
 }
